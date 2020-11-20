@@ -1,9 +1,7 @@
 language: generic 
 
-matrix:
-    include:
-      - dist: bionic
-      - dist: xenial
+os: linux
+dist: xenial
 
 
 sudo: required
