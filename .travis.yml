@@ -1,3 +1,7 @@
+matrix:
+    include:
+      - dist: bionic
+      - dist: xenial
 language: generic 
 sudo: required
 services: 
